@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="foro_css.css" type="text/css" rel="stylesheet">
+<title>Power Music</title>
+</head>
+
+<body>
+	<header>
+		<img id="imagen_cabecera" src="imagenes/power-music.png" alt="power music">
+		<form id="inicio_sesion" action="#" method="post">
+			<input class="boton" type="submit" name="Entrar" value="Entrar">
+			<input type="email" name="user" value="Usuario" required="required">
+			<input type="password" name="pass" value="Contrase񡢠required="required">
+		</form>
+	</header>
+	<div ALIGN=center id="temas">
+ 		<form id="labels_temas" action="#" method="post">
+			<b>VER TEMA DEL FORO:</b></br>
+ 			¿cual es el nombre del tema? <input type="text" name="tema" value=""required="required"><br><br>
+ 			Selecciona la categoría del tema: 
+			<select name="tipo_musica">
+				<option value="Rock">Rock</option> 
+				<option value="Pop">Pop</option>
+				<option value="Countri">Countri</option>
+				<option value="Dance">Dance</option>
+				<option value="Disco">Disco</option>
+				<option value="Hip-Hop">Hip-Hop</option>
+				<option value="Clasica">Clasica</option>
+				<option value="Electronica">Electronica</option>
+				<option value="Rap">Rap</option>
+			</select>
+			<input type="submit" name="muestra" value="Buscar" />
+ 		</form>
+ 		
+ 	</div>
+	
+	
+	<div ALIGN=center id="todos_temas">
+		<form id="labels_resultado" action="#" method="post">
+			<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Todos los temas abiertos del foro</b>
+		</form>
+	</div>
+	
+	<div ALIGN=center id="introducir_temas">
+		<form id="labels_tipo_tema" action="#" method="post">
+			<b>INTRODUCIR NUEVO TEMA</b></br>
+			Introduzca el nombre del tema: <input type="text" name="nombre_tema" value=""required="required"> seleccione la categoria del tema: 
+			<select name="tipo_tema">
+				<option value="Rock">Rock</option> 
+				<option value="Pop">Pop</option>
+				<option value="Countri">Countri</option>
+				<option value="Dance">Dance</option>
+				<option value="Disco">Disco</option>
+				<option value="Hip-Hop">Hip-Hop</option>
+				<option value="Clasica">Clasica</option>
+				<option value="Electronica">Electronica</option>
+				<option value="Rap">Rap</option>
+			</select></br>
+			<textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea></br>
+			<input type="submit" name="muestra" value="Comentar" />
+	</div>
+	
+	
+	
+	
+	<img id="imagen_fondo" src=imagenes/music.png alt="power">
+	
+</body>
+
+</html>
